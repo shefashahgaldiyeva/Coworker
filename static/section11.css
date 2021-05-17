@@ -1,0 +1,59 @@
+.section11{
+    width: 100%;
+    background: url('https://d2w68ocb6l47bj.cloudfront.net/frontend-dist/static/media/img_never_miss_coworker.5bc862db.png') 0 0 no-repeat;
+    background-size: cover;
+    padding: 140px 0 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section11 .inner{
+    width: 70%;
+    text-align: center;
+}
+.section11 .inner h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+    color: #fff;
+    margin: 0 0 7px;
+}
+.section11 .inner p{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+}
+.section11 .inner .inp{
+    width: 73%;
+    margin: 15px auto;
+}
+.section11 .inner .inp input,
+.section11 .inner .inp button{
+    font-size: 14px;
+    line-height: 32px;
+    border: none;
+    border-radius: 2px;
+    height: 57px;
+}
+.section11 .inner .inp input{
+    width: 540px;
+    font-weight: 300;
+    color: #5e5e5e;
+    background: #fafbfc;
+    padding: 0 25px;
+    outline: none;
+}
+.section11 .inner .inp button{
+    width: 140px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    background: #00c78a;
+    text-align: center;
+    float: right;
+}
+.section11 .inner .inp button:hover{
+    cursor: pointer;
+    background: #007664;
+}

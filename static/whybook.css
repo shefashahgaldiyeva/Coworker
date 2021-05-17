@@ -1,0 +1,39 @@
+.whybook{
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    padding: 10px  120px;
+}
+.whybook h2{
+    color: rgb(73, 72, 72);
+}
+.whybook .why{
+    display: flex;
+    justify-content: space-between;
+}
+.whybook .why div{
+    width: 30%;
+}
+.whybook .why div div{
+    width: 70px;
+    height: 70px;
+    box-shadow: 3px 3px 13px 7px rgba(224, 224, 224, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.whybook h4{
+    font-size: 20px;
+    line-height: 22px;
+    color: #464c4b;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e8ef;
+}
+.whybook p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #7c807f;
+    font-weight: 300;
+}

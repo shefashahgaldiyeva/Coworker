@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'access.workspace.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="access">
+        <div class="text">
+            <h3>Access workspace wherever you are</h3>
+            <p>Download the Coworker App for Exclusive Day Pass and Membership Discounts</p>
+            <div class="store">
+                <a href="https://play.google.com/store/apps/details?id=com.coworker.coworker&hl=en" target="_blank">
+                    <img src="{% static 'img/google.play.svg' %}" alt="google">
+                </a>
+                <a href="https://apps.apple.com/us/app/coworker-com/id1474625248" target="_blank">
+                    <img src="{% static 'img/app.store.svg' %}" alt="apple">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.section8{
+    padding: 0 110px;
+    width: 100%;
+}
+.section8 .bg{
+    background: url('https://d2w68ocb6l47bj.cloudfront.net/frontend-dist/static/media/img_what_coworker.c2fd93b7.webp') 0 0 no-repeat;
+    height: 87vh;
+    background-size: cover;
+    padding: 100px 0;
+    display: inline-flex;
+    justify-content: right;
+}
+.section8 .bg .text{
+    width: 50%;
+    background-color: white;
+    padding: 23px 67px 23px 38px;
+}
+.section8 .bg .text h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+    color: #00c78a;
+    margin-bottom: 15px;
+}
+.section8 .bg .text h4{
+    font-size: 16px;
+    line-height: 31px;
+    color: #464C4B;
+    border-top: 1px solid #f0f1f6;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.section8 .bg .text p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(124, 124, 124);
+    margin-bottom: 37px;
+}
+.section8 .bg .text a{
+    font-weight: 500;
+    font-size: 14px;
+    float: left;
+    line-height: 50px;
+    color: #fff;
+    background: #00927c;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    margin-top: -20px;
+}
+.section8 .bg .text a:hover{
+    cursor: pointer;
+    background: #007664;
+}

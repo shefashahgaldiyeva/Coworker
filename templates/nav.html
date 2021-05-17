@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'nav.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <div class="logo">
+                <!-- <a href="#">
+                    <img src="https://d2w68ocb6l47bj.cloudfront.net/v20210312/_redesign/img/img_logo.svg" alt="logo">
+                </a> -->
+                <img src="https://d2w68ocb6l47bj.cloudfront.net/v20210312/_redesign/img/img_logo.svg" alt="logo">
+            </div>
+            <div class="link">
+                <a href="/workspace">WORKSPACE</a>
+                <a href="/meeting-rooms">MEETINGS ROOMS</a>
+                <a href="/global-pass">GLOBAL PASS</a>
+            </div>
+        </div>
+        <div class="btn">
+            <button>&#10010;<span>ADD YOUR SPACE</span></button>
+            <button>SIGN UP</button>
+            <button>LOGIN</button>
+        </div>
+    </div>
+</body>
+</html>

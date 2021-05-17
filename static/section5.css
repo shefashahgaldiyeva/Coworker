@@ -1,0 +1,90 @@
+.section5{
+    padding: 0 120px;
+}
+.section5 h2{
+    padding: 0 15px 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #464d4b;
+}
+.section5 .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section5 .row .zoom{
+    width: 32%;
+    height: 280px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgb(156 167 165 / 36%);
+    border-radius: 2px;
+}
+.section5 .zoom .image{
+    width: 100%;
+    height: 83%;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+}
+.section5 .zoom .image img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.section5 .zoom .image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(180deg,rgba(23,19,19,.26),rgba(23,19,19,.72));
+    opacity: .4;
+    z-index: 0;
+   cursor: pointer;
+}
+.section5 .zoom .image span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+    z-index: 99;
+}
+.section5 .zoom .image:hover img{
+    transform: scale(1.2);
+}
+.zoom .text div{
+    display: flex;
+    align-items: center;
+}
+.zoom .text{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+.zoom .text h4{
+    font-size: 16px;
+    line-height: 22px;
+    color: #00927c;
+}
+.text div span{
+    font-weight: 500;
+    font-size: 14px;
+    color: #464c4b;
+    margin-left: 5px;
+}
+.zoom .text a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #00927c;
+}

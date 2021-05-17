@@ -1,0 +1,87 @@
+.section6{
+    padding: 75px 120px 0 120px;
+}
+.section6 h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #464c4b;
+}
+.section6>span{
+    line-height: 29px;
+    color: #747c7b;
+}
+.section6 .map{
+    margin-top: 10px;
+    width: 100%;
+    height: 479px;
+    background: #edf4f2 url('https://d2w68ocb6l47bj.cloudfront.net/frontend-dist/static/media/img_globe_con.flat.b0246cba.png') 0 0 no-repeat;
+}
+.section6 .map div{
+    width: 152px;
+    background: #fff;
+    padding: 14px 16px 17px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #464c4b;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 4px 13px #cad2d0;
+    position: relative;
+    transition: .5s;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+}
+.section6 .map div:hover{
+    transform: translateY(-20%);
+}
+.section6 .map div span{
+    color: #464c4b;
+}
+.section6 .map div strong{
+    color: #00927c;
+}
+.section6 .map div::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    bottom: -11px;
+    left: 60px;
+}
+.section6 .map .location1{
+    top: 95px;
+    left: 140px;
+}
+.section6 .map .location2{
+    top: 150px;
+    left: 77px;
+}
+.section6 .map .location3{
+    top: 217px;
+    left: 257px;
+}
+.section6 .map .location4{
+    top: -160px;
+    left: 575px;
+}
+.section6 .map .location5{
+    top: -100px;
+    left: 644px;
+}
+.section6 .map .location6{
+    top: -38px;
+    left: 536px;
+}
+.section6 .map .location7{
+    top: -310px;
+    left: 800px;
+}
+.section6 .map .location8{
+    top: -110px;
+    left: 895px;
+}
+

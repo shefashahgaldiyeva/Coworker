@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'coworker.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/themes/base/minified/jquery.ui.datepicker.min.css" integrity="sha512-wXrVZPEaEx9zwuCMeMa2zrsfPYm+h5tAHOYPr2uN3g/h9NzPRpF4qLp59v3XMXK00FECIsYJ++D9VodqomhMJw==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    {% include 'nav.html' %}
+    {% include 'container.workspace.html' %}
+    {% include 'whybook.html' %}
+    {% include 'section3.html' %}
+    {% include 'section4.workspace.html' %}
+    {% include 'section9.html' %}
+    {% include 'section10.html' %}
+    {% include 'section6.workspace.html' %}
+    <h1>Linkler</h1>
+    {% include 'section8.html' %}
+    {% include 'access.workspace.html' %}
+    {% include 'section11.html' %} 
+    <h1>Footer</h1>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+
+<script src="{% static 'app.js' %}"></script>
+</body>
+</html>

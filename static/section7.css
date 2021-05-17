@@ -1,0 +1,59 @@
+.section7{
+    width: 100%;
+    display: flex;
+    padding: 0 110px;
+    margin: 90px 0 70px 0;
+}
+.section7 .left{
+    width: 50%;
+    text-align: center;
+}
+.section7 .right{
+    width: 50%;
+    padding-right: 120px;
+}
+.section7 .left img{
+    width: 66%;
+}
+.section7 .right span{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+    color: #00927c;
+}
+.section7 .right h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #00c78a;
+}
+.section7 .right h4{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #464c4b;
+}
+.section7 .right p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #464c4b;
+    margin: 36px 0;
+}
+.section7 .right a{
+    font-weight: 600;
+    font-size: 14px;
+    float: left;
+    width: 141px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #00927c;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.section7 .right a:hover{
+    cursor: pointer;
+    background: #007664;
+}

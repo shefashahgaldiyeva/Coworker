@@ -1,0 +1,147 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 9%;
+    background: url('img/container.bg.jpg');
+}
+.container::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    background-color: rgb(54, 54, 54);
+    z-index: -1;
+}
+.jumbotron{
+    width: 65%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.jumbotron h1{
+    color: white;
+    font-size: 3.3vmax;
+}
+.jumbotron h1 span{
+    color: #00c78a;
+}
+.jumbotron .white{
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.white2{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+.white2 input:first-child{
+    width: 330px;
+    padding: 15px 120px  15px 30px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #464c4b;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid   #9daaa8;
+    background: #fff url('https://d2w68ocb6l47bj.cloudfront.net/frontend-dist/static/media/img_magnifying-glass.83f40782.svg') 15px 24px no-repeat!important;
+}
+.white2 input:first-child:focus{
+    border: 1px solid  #00927c;
+    box-shadow: 0px 1px 11px -6px  #00927c;
+}
+/* .white2 input:first-child:hover{
+    background-color: rgb(97, 76, 76);
+} */
+.white2 input:nth-child(2){
+    width: 120px;
+    height: 65px;
+    padding-left: 15px;
+    color: #464c4b;
+    outline: none;
+    border: 1px solid   #9daaa8;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAzCAYAAADfP/VGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjA0RkQ4MjVBQTU2RTExRUFBMEI4OTM1OTBCMTAzNUEwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjA0RkQ4MjVCQTU2RTExRUFBMEI4OTM1OTBCMTAzNUEwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDRGRDgyNThBNTZFMTFFQUEwQjg5MzU5MEIxMDM1QTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDRGRDgyNTlBNTZFMTFFQUEwQjg5MzU5MEIxMDM1QTAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5FWr1RAAACQUlEQVR42uxbTU4CMRR+b6YdSHTBETgCR4AlsFBPwJCACSu8gdxAdkZZACdgYcQleANv4NxAlsDMUAuGnxkTf6LtTPW9hDBtQ/r4pt/Xr02L8Enw8c0AwKptyysh6mH1fACKw76/dS3E/q5C4MCvNuof/UYIoTQnCygILAIr4cDd06ifc7JBW/LeldX51Gcu4AkQu36lMdSlWW9gPVznubAnRoD0/i94/sIvwVnL0yLw5gK1GU95nuGTNTOUaxaXU7S5QO0Bc5zlhepemASqHasbHi3YxeysPkurz8pK2QgF68jH2r7ZOpFfHbU0RChEklwEnS1QaY15uSV1isVHUkG7dZhLoTSCeQm8UPJZ35l3+bgXmW/9ShNNST6e+7LcQBpZKQn2ruKuVyRYvggW2jAhWIiGBFaiNJTTy9SYqRygmChYQaVZMtU6EA1Js/6IZkVi1M9lYb7bJ5pDdhZZkyXdnqaRZTv+aZhhz9sPi+0Zrcs629f5EA1Js/6bZoXWDNjK2y+F8CW6NJLlldDWDrF27b6OtmiIhgQW+SzyWeSzSLMIAvJZ5LPIZ5Fmkc/68z7KaJ9FNCTNIs1K3GelLchnEQ11gaXhiPSvxMN1PgmwppGh7YRXMNKfyLdCvlAO/DJW+6Rc4IVYPSJaxb2KCZdnmAvjXorRCjYnWGLy21U+soKlIzs5WNkbGegd3uFRR0O5vLAxLJkLGHr2+u6Ojp4ienV/6wrANqL6A/g/jc05MgGPx0vW3V5yUH3R6VWAAQB6aMSOFRei7QAAAABJRU5ErkJggg==') right 20px no-repeat!important;
+    background-size: 27px!important;
+}
+.white2 input:nth-child(2):focus{
+    border: 1px solid  #00927c;
+    box-shadow: 0px 1px 11px -6px  #00927c;
+}
+.white2 select{
+    width: 120px;
+    height: 65px;
+    padding-left: 15px;
+    color: #464c4b;
+    outline: none;
+    border: 1px solid  #9daaa8;
+    cursor: pointer;
+}
+.white2 button{
+    width: 120px;
+    height: 65px;
+    background-color:#00927c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.white2 button:hover{
+    background-color:#007664;
+}
+.white2 button img{
+    transform: translate(50%, 20%);
+}
+.white3{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 40px;
+    color: #9daaa8;
+    font-size: 14px;
+    font-weight: bold;
+}
+.white3 div{
+    margin-right: 72px;
+}
+.white3 div img{
+    transform: translateY(25%);
+}
+.jumbotron p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Work Sans",sans-serif;
+}
+/* #datepicker{background-color: white}
+#datepicker:hover{cursor: pointer;} */
+ 
+#ui-datepicker-div{
+    background: white;
+    color: black !important;
+    padding: 10px;
+    box-shadow: 2px 2px 14px 0px gray;
+}
+.ui-datepicker-prev{
+    padding-left: 15px;
+}
+.ui-datepicker-next{
+    padding-left: 65px;
+}
+.ui-datepicker-title{
+    display: flex;
+    justify-content: space-around;
+}

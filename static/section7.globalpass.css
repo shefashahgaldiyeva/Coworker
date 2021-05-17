@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+.section7-global{
+    float: left;
+    width: 100%;
+    background: url('img/global_pass_bg.jpg') left top no-repeat;
+    margin-top: 78px;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+}
+.section7-global .row{
+    display: flex;
+}
+.section7-global::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/global_before.png') center center no-repeat;
+    background-color: black;
+    opacity: .7;
+    background-size: 80%;
+    z-index: 0;
+}
+.section7-global .row{
+    display: flex;
+}
+.section7-global .left{
+    z-index: 1;
+    width: 50%;
+    text-align: center;
+}
+.section7-global .right{
+    z-index: 1;
+    width: 42%;
+    padding: 40px 40px 0 0;
+    text-align: center;
+}
+.section7-global .left img{
+    width: 66%;
+}
+.section7-global .right span{
+    font-size: 20px;
+    line-height: 32px;
+    display: inline-block;
+    width: 100%;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+.section7-global .right h1{
+    font-family: 'AlternateGotNo3D';
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 140px;
+    color: #cca445;
+}
+.section7-global .right h4,
+.section7-global .right h4 span{
+    font-family: 'AlternateGotNo3D';
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.section7-global .right h4{
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.section7-global .right h4 span{
+    line-height: 24px;
+    color: #00c689;
+    display: inline;
+}
+.section7-global .right a{
+    background: #00927C;
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block;
+    height: 64px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section7-global .right a:hover{
+    cursor: pointer;
+    background: #007664;
+}

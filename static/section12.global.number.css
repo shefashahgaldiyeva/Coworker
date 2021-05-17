@@ -1,0 +1,29 @@
+.section12-global-number{
+    padding: 60px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.section12-global-number div{
+    padding-right: 20px;
+    width: 30%;
+    float: left;
+}
+.section12-global-number div h2{
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+    color: #00927C;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #f0f1f6;
+}
+.section12-global-number div span{
+    color: #464C4B;
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 10px;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+}

@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'container.meetingrooms.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Find a <span>Meeting </span>Room Near You</h1>
+            <div class="white">
+                <div class="white2">
+                    <input type="text" placeholder=" Search by City or Space...">
+                    <input type="text" placeholder="Start Date" autocomplete="off" id="datepicker" data-date-format="mm/dd/yyyy">
+                    <select>
+                            <option >No.of pax</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                    </select>
+                    <button type="submit">Search
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxwYXRoIGQ9Ik0xMC4yNzM5IDkuMDM3NThDMTAuOTYyOSA4LjA5Njc5IDExLjM3NDkgNi45NDEyMSAxMS4zNzQ5IDUuNjg4NDdDMTEuMzc0OSAyLjU1MjQ5IDguODIzNDMgMC4wMDA5NzY1NjIgNS42ODc0NiAwLjAwMDk3NjU2MkMyLjU1MTQ5IDAuMDAwOTc2NTYyIDAgMi41NTI0OSAwIDUuNjg4NDdDMCA4LjgyNDQ0IDIuNTUxNTIgMTEuMzc2IDUuNjg3NDkgMTEuMzc2QzYuOTQwMjMgMTEuMzc2IDguMDk1OTIgMTAuOTYzOCA5LjAzNjcxIDEwLjI3NDlMMTIuNzYyNyAxNC4wMDA5TDE0IDEyLjc2MzZDMTQgMTIuNzYzNiAxMC4yNzM5IDkuMDM3NTggMTAuMjczOSA5LjAzNzU4Wk01LjY4NzQ5IDkuNjI1OTVDMy41MTYyMyA5LjYyNTk1IDEuNzUwMDEgNy44NTk3MyAxLjc1MDAxIDUuNjg4NDdDMS43NTAwMSAzLjUxNzIgMy41MTYyMyAxLjc1MDk4IDUuNjg3NDkgMS43NTA5OEM3Ljg1ODc1IDEuNzUwOTggOS42MjQ5NyAzLjUxNzIgOS42MjQ5NyA1LjY4ODQ3QzkuNjI0OTcgNy44NTk3MyA3Ljg1ODcyIDkuNjI1OTUgNS42ODc0OSA5LjYyNTk1WiIgZmlsbD0iI0FBQjJCMSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwIj4KPHJlY3Qgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="">
+                    </button>
+                </div>
+                <div class="white3">
+                    <div>
+                        <img src="https://d2w68ocb6l47bj.cloudfront.net/v20210412/_redesign/img/img_globe.svg" alt="">
+                        <span>172 Countries</span>
+                    </div>
+                    <div>
+                        <img src="https://d2w68ocb6l47bj.cloudfront.net/v20210412/_redesign/img/img_spaces_icon.svg" alt="">
+                        <span>18,500+ Coworking Spaces</span>
+                    </div>
+                    <div>
+                        <img src="https://d2w68ocb6l47bj.cloudfront.net/v20210412/_redesign/img/img_team_icon.svg" alt="">
+                        <span>1.4 Million Users</span>
+                    </div>
+                </div>
+            </div>
+            <p>The World’s Largest Coworking & Flexible Office Marketplace | Search & Get Quotes Today</p>
+        </div>
+    </div>
+</body>
+</html>
